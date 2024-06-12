@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Portafolio - Luis Carreño"
+  navbar:
+    left:
+      - about.qmd
+      - index.qmd
+      - Blog.qmd  
+      - Books.qmd
+      - Contact.qmd
+      - Resume.qmd
+      
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/lcarrenoy
+      - icon: linkedin
+        href: https://www.linkedin.com/in/luis-alberto-carreño/     
+
+format:
+  html:
+    theme: 
+      light: zephyr
+      dark: darkly
+    fontsize: 1.5 rem
+    mainfont: arial
+    monofont: courier new
+    css: styles.css
+    toc: true
+    code-link: true
+    code-fold: show
+    code-block-bg: "lightblue"

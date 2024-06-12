@@ -1,0 +1,48 @@
+---
+title: "Blog"
+
+---
+
+# Base de datos
+
+## Summary
+
+```{r}
+mtcars
+```
+
+## Structure
+
+```{r}
+str(mtcars)
+```
+
+## Summary
+
+```{r}
+summary(mtcars)
+```
+
+## Graphic
+
+```{r}
+plot(mtcars$mpg,mtcars$wt)
+```
+
+## PIB
+
+## Power City
+
+```{r}
+CO2
+```
+
+```{r}
+DNase
+```
+
+```{r}
+search() 
+
+```
+
