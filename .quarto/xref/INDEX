@@ -25,5 +25,17 @@
   },
   "docs/index.qmd": {
     "index.html": "cda2e196"
+  },
+  "Dashboards.qmd": {
+    "Dashboards.html": "12aacb0e"
+  },
+  "Machine Learning & IA.qmd": {
+    "Machine Learning & IA.html": "81ead8a3"
+  },
+  "about-pt.qmd": {
+    "about-pt.html": "1447bd21"
+  },
+  "about-es.qmd": {
+    "about-es.html": "8a092c34"
   }
 }

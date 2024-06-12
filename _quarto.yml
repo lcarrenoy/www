@@ -6,13 +6,22 @@ website:
   title: "Portafolio - Luis Carreño"
   navbar:
     left:
-      - about.qmd
-      - index.qmd
-      - Blog.qmd  
-      - Books.qmd
-      - Contact.qmd
-      - Resume.qmd
-      
+      - text: Luis Carreño
+        menu:
+          - text: English
+            href: about.qmd
+          - text: Português
+            href: about-pt.qmd
+          - text: Español
+            href: about-es.qmd
+      - text: Projects
+        href: index.qmd
+      - text: Books
+        href: Books.qmd
+      - text: Dashboards
+        href: Dashboards.qmd
+      - text: Machine Learning & IA
+        href: Machine Learning & IA.qmd
     right:
       - about.qmd
       - icon: github
