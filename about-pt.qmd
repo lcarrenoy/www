@@ -1,5 +1,52 @@
 ---
-title: "Portugues"
+title: "Luis Carreño"
+image: luis.jpg
+resources: Resume.pdf
+about: 
+    template:   trestles
+    links: 
+      - text: Email
+        icon: envelope
+        href: mailto:lcarrenoy@uni.pe
+        
+      - text: Github
+        icon: github
+        href: https://github.com/lcarrenoy
+        
+      - text: Linkedin
+        icon: linkedin
+        href: https://www.linkedin.com/in/luis-alberto-carreño/             
+    
+      - text: Resume
+        icon: file-text
+        href: Resume.pdf
+        
+format:
+  html:        
+   code-link: true 
+   code-fold: show 
+   execute:
+     echo:false     
+         
+theme:
+
+ -quartz
 ---
 
-6 anos de experiencia
+Engenheiro Industrial com 6 anos de experiência na aplicação de mineração de dados, planejamento e controle financeiro.
+
+Experiência comprovada em manipulação de dados, programação e visualização de informações.
+
+Especialista em reunir finanças e ciência de dados para impulsionar a tomada de decisões informadas.
+
+**Programming Languages :** Python \| Java \| C++ \| SQL \| HTML and CSS.
+
+**Software & Tools :** Power query \| R \| Numpy \| Ploty \| Pandas
+
+\| Seaborn \|Scikit Learn \| Keras \| Tensorflow \| Power BI
+
+\| Tableau \| Data Studio \| SAP.
+
+![](bg-masthead.jpg){withd="10%"}
+
+

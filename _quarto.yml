@@ -18,6 +18,8 @@ website:
         href: index.qmd
       - text: Books
         href: Books.qmd
+      - text: Blog
+        href: Blog.qmd
       - text: Dashboards
         href: Dashboards.qmd
       - text: Machine Learning & IA
