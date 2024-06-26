@@ -1,0 +1,17 @@
+{
+  "hash": "0309d18fcdebb4c5b67dffb4acc463d7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Full width graph\"\nauthor: \"Luis Carreño\"\ndate: \"2024-06-03\"\ncategories: [R Studio, Graphics]\nimage: \"4 Column.png\"\n---\n\n\n\nThis is an example of Full width graph.\n\n\n\n::: {.callout-tip}\n## Tip with Graphics\n**column:** screen;\n**out-width:** 100%;\n**layout-ncol:** 4\n:::\n\n\nThe following graph is gonna take 100% of the width, not only the text area width.\n\n\n\n\n\n\n::: {.cell .column-screen layout-ncol=\"4\"}\n\n```{.r .cell-code}\nlibrary(patchwork)\nlibrary(ggplot2)\n\nggplot(mtcars) + geom_point(aes(mpg, disp))\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=100%}\n:::\n\n```{.r .cell-code}\nggplot(mtcars) + geom_boxplot(aes(gear, disp, group = gear))\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-2.png){width=100%}\n:::\n\n```{.r .cell-code}\nggplot(mtcars) + geom_smooth(aes(disp, qsec))\n## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-3.png){width=100%}\n:::\n\n```{.r .cell-code}\nggplot(mtcars) + geom_bar(aes(carb))\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-4.png){width=100%}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

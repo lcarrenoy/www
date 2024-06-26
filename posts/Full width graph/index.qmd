@@ -1,0 +1,43 @@
+---
+title: "Full width graph"
+author: "Luis Carreño"
+date: "2024-06-03"
+categories: [R Studio, Graphics]
+image: "4 Column.png"
+---
+
+This is an example of Full width graph.
+
+
+
+::: {.callout-tip}
+## Tip with Graphics
+**column:** screen;
+**out-width:** 100%;
+**layout-ncol:** 4
+:::
+
+
+The following graph is gonna take 100% of the width, not only the text area width.
+
+
+
+
+```{r ,results='hide',collapse=TRUE}
+#| column: screen
+#| out-width: 100%
+#| layout-ncol: 4
+library(patchwork)
+library(ggplot2)
+
+ggplot(mtcars) + geom_point(aes(mpg, disp))
+ggplot(mtcars) + geom_boxplot(aes(gear, disp, group = gear))
+ggplot(mtcars) + geom_smooth(aes(disp, qsec))
+ggplot(mtcars) + geom_bar(aes(carb))
+
+```
+
+
+
+
+

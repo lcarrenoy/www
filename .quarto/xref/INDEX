@@ -15,7 +15,8 @@
     "index.html": "de5d0fae"
   },
   "Blog.qmd": {
-    "Blog.html": "8861a529"
+    "Blog.html": "8861a529",
+    "Blog.tex": "3ccbb3ff"
   },
   "Books.qmd": {
     "Books.html": "bcd931f0"
@@ -37,5 +38,17 @@
   },
   "about-es.qmd": {
     "about-es.html": "8a092c34"
+  },
+  "Interactive.qmd": {
+    "Interactive.html": "1b84070d"
+  },
+  "posts/Dashboard House Sales/index.qmd": {
+    "index.html": "79d63657"
+  },
+  "posts/Full width graph/index.qmd": {
+    "index.html": "9e8e13cb"
+  },
+  "posts/Barchar/index.qmd": {
+    "index.html": "23e1638e"
   }
 }

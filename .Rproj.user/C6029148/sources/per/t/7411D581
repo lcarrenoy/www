@@ -1,6 +1,6 @@
 {
     "id": "7411D581",
-    "path": "C:/Users/Luis/OneDrive/Escritorio/vvvv/about.qmd",
+    "path": "C:/Users/Luis/OneDrive/Escritorio/Github/webpage/about.qmd",
     "project_path": "about.qmd",
     "type": "quarto_markdown",
     "hash": "143623292",
@@ -18,7 +18,7 @@
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "0,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "1075:712",
+        "rmdVisualModeLocation": "2:0",
         "docOutlineSize": "129"
     },
     "folds": "",

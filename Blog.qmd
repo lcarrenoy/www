@@ -1,15 +1,58 @@
 ---
 title: "Blog"
-
+author: "Luis Carreño"
+date: "2024-06-06"
+output:
+  html_document:
+    code_download: true
+    toc: true
+    toc_float: true
+    theme: united
+  pdf_document:
+    toc: true
+subtitle: Programming ( R Studio - Python - SQL )
 ---
 
-# Base de datos
+# DATA BASE
 
-## Summary
+## Datasets - R Studio
+
+There are many datasets like
+
+airquality - New York Air Quality Measurements
+AirPassengers - Monthly Airline Passenger Numbers 1949-1960
+mtcars - Motor Trend Car Road Tests
+iris - Edgar Anderson's Iris Data
+
 
 ```{r}
+#Fameous Dataset in R
 mtcars
 ```
+
+
+
+## Descriptive statistic
+
+```{r}
+summary(mtcars)
+```
+
+
+## Graphics - R Studio
+
+
+
+```{r}
+plot(mtcars$mpg,mtcars$wt)
+```
+
+## Graphics - Python
+
+
+
+![](bp.jpg){withd="10%"}
+
 
 ## Structure
 
@@ -23,26 +66,14 @@ str(mtcars)
 summary(mtcars)
 ```
 
-## Graphic
+## Exploratory Data Analysis
 
-```{r}
-plot(mtcars$mpg,mtcars$wt)
-```
 
-## PIB
+## Query - SQL
 
-## Power City
 
-```{r}
-CO2
-```
+## Tables - SQL
 
-```{r}
-DNase
-```
 
-```{r}
-search() 
-
-```
+## Scraping
 

@@ -2,9 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.45">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Portafolio - Luis Carreño - Blog</title>
+<meta name="author" content="Luis Carreño">
+<meta name="dcterms.date" content="2024-06-06">
+<title>Blog – Portafolio - Luis Carreño</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +32,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -108,13 +110,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
 <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-luis-carreño" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-luis-carreño" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Luis Carreño</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-luis-carreño">
@@ -170,7 +172,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
 </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -182,14 +184,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
 <li>
-<a href="#base-de-datos" id="toc-base-de-datos" class="nav-link active" data-scroll-target="#base-de-datos">Base de datos</a>
+<a href="#data-base" id="toc-data-base" class="nav-link active" data-scroll-target="#data-base">DATA BASE</a>
   <ul class="collapse">
-<li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+<li><a href="#datasets---r-studio" id="toc-datasets---r-studio" class="nav-link" data-scroll-target="#datasets---r-studio">Datasets - R Studio</a></li>
+  <li><a href="#descriptive-statistic" id="toc-descriptive-statistic" class="nav-link" data-scroll-target="#descriptive-statistic">Descriptive statistic</a></li>
+  <li><a href="#graphics---r-studio" id="toc-graphics---r-studio" class="nav-link" data-scroll-target="#graphics---r-studio">Graphics - R Studio</a></li>
+  <li><a href="#graphics---python" id="toc-graphics---python" class="nav-link" data-scroll-target="#graphics---python">Graphics - Python</a></li>
   <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure">Structure</a></li>
-  <li><a href="#summary-1" id="toc-summary-1" class="nav-link" data-scroll-target="#summary-1">Summary</a></li>
-  <li><a href="#graphic" id="toc-graphic" class="nav-link" data-scroll-target="#graphic">Graphic</a></li>
-  <li><a href="#pib" id="toc-pib" class="nav-link" data-scroll-target="#pib">PIB</a></li>
-  <li><a href="#power-city" id="toc-power-city" class="nav-link" data-scroll-target="#power-city">Power City</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
+  <li><a href="#query---sql" id="toc-query---sql" class="nav-link" data-scroll-target="#query---sql">Query - SQL</a></li>
+  <li><a href="#tables---sql" id="toc-tables---sql" class="nav-link" data-scroll-target="#tables---sql">Tables - SQL</a></li>
+  <li><a href="#scraping" id="toc-scraping" class="nav-link" data-scroll-target="#scraping">Scraping</a></li>
   </ul>
 </li>
   </ul></nav>
@@ -197,23 +203,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Blog</h1>
+<p class="subtitle lead">Programming ( R Studio - Python - SQL )</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luis Carreño </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 6, 2024</p>
+    </div>
+  </div>
   
     
   </div>
   
 
 
-</header><section id="base-de-datos" class="level1"><h1>Base de datos</h1>
-<section id="summary" class="level2"><h2 class="anchored" data-anchor-id="summary">Summary</h2>
+</header><section id="data-base" class="level1"><h1>DATA BASE</h1>
+<section id="datasets---r-studio" class="level2"><h2 class="anchored" data-anchor-id="datasets---r-studio">Datasets - R Studio</h2>
+<p>There are many datasets like</p>
+<p>airquality - New York Air Quality Measurements AirPassengers - Monthly Airline Passenger Numbers 1949-1960 mtcars - Motor Trend Car Road Tests iris - Edgar Anderson’s Iris Data</p>
 <div class="cell">
-<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mtcars</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">#Fameous Dataset in R</span></span>
+<span><span class="va">mtcars</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="cell-output cell-output-stdout">
 <pre><code>                     mpg cyl  disp  hp drat    wt  qsec vs am gear carb
 Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
@@ -250,27 +272,9 @@ Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
 Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2</code></pre>
 </div>
 </div>
-</section><section id="structure" class="level2"><h2 class="anchored" data-anchor-id="structure">Structure</h2>
+</section><section id="descriptive-statistic" class="level2"><h2 class="anchored" data-anchor-id="descriptive-statistic">Descriptive statistic</h2>
 <div class="cell">
-<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details><div class="cell-output cell-output-stdout">
-<pre><code>'data.frame':   32 obs. of  11 variables:
- $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
- $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
- $ disp: num  160 160 108 258 360 ...
- $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
- $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
- $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
- $ qsec: num  16.5 17 18.6 19.4 17 ...
- $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
- $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
- $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
- $ carb: num  4 4 1 1 2 1 4 2 2 4 ...</code></pre>
-</div>
-</div>
-</section><section id="summary-1" class="level2"><h2 class="anchored" data-anchor-id="summary-1">Summary</h2>
-<div class="cell">
-<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="cell-output cell-output-stdout">
 <pre><code>      mpg             cyl             disp             hp       
  Min.   :10.40   Min.   :4.000   Min.   : 71.1   Min.   : 52.0  
@@ -295,298 +299,67 @@ Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2</code></
  Max.   :1.0000   Max.   :5.000   Max.   :8.000  </code></pre>
 </div>
 </div>
-</section><section id="graphic" class="level2"><h2 class="anchored" data-anchor-id="graphic">Graphic</h2>
+</section><section id="graphics---r-studio" class="level2"><h2 class="anchored" data-anchor-id="graphics---r-studio">Graphics - R Studio</h2>
 <div class="cell">
-<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">$</span><span class="va">mpg</span>,<span class="va">mtcars</span><span class="op">$</span><span class="va">wt</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">$</span><span class="va">mpg</span>,<span class="va">mtcars</span><span class="op">$</span><span class="va">wt</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="Blog_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<figure class="figure"><p><img src="Blog_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
-</section><section id="pib" class="level2"><h2 class="anchored" data-anchor-id="pib">PIB</h2>
-</section><section id="power-city" class="level2"><h2 class="anchored" data-anchor-id="power-city">Power City</h2>
+</section><section id="graphics---python" class="level2"><h2 class="anchored" data-anchor-id="graphics---python">Graphics - Python</h2>
+<p><img src="bp.jpg" class="img-fluid" data-withd="10%"></p>
+</section><section id="structure" class="level2"><h2 class="anchored" data-anchor-id="structure">Structure</h2>
 <div class="cell">
-<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">CO2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="cell-output cell-output-stdout">
-<pre><code>   Plant        Type  Treatment conc uptake
-1    Qn1      Quebec nonchilled   95   16.0
-2    Qn1      Quebec nonchilled  175   30.4
-3    Qn1      Quebec nonchilled  250   34.8
-4    Qn1      Quebec nonchilled  350   37.2
-5    Qn1      Quebec nonchilled  500   35.3
-6    Qn1      Quebec nonchilled  675   39.2
-7    Qn1      Quebec nonchilled 1000   39.7
-8    Qn2      Quebec nonchilled   95   13.6
-9    Qn2      Quebec nonchilled  175   27.3
-10   Qn2      Quebec nonchilled  250   37.1
-11   Qn2      Quebec nonchilled  350   41.8
-12   Qn2      Quebec nonchilled  500   40.6
-13   Qn2      Quebec nonchilled  675   41.4
-14   Qn2      Quebec nonchilled 1000   44.3
-15   Qn3      Quebec nonchilled   95   16.2
-16   Qn3      Quebec nonchilled  175   32.4
-17   Qn3      Quebec nonchilled  250   40.3
-18   Qn3      Quebec nonchilled  350   42.1
-19   Qn3      Quebec nonchilled  500   42.9
-20   Qn3      Quebec nonchilled  675   43.9
-21   Qn3      Quebec nonchilled 1000   45.5
-22   Qc1      Quebec    chilled   95   14.2
-23   Qc1      Quebec    chilled  175   24.1
-24   Qc1      Quebec    chilled  250   30.3
-25   Qc1      Quebec    chilled  350   34.6
-26   Qc1      Quebec    chilled  500   32.5
-27   Qc1      Quebec    chilled  675   35.4
-28   Qc1      Quebec    chilled 1000   38.7
-29   Qc2      Quebec    chilled   95    9.3
-30   Qc2      Quebec    chilled  175   27.3
-31   Qc2      Quebec    chilled  250   35.0
-32   Qc2      Quebec    chilled  350   38.8
-33   Qc2      Quebec    chilled  500   38.6
-34   Qc2      Quebec    chilled  675   37.5
-35   Qc2      Quebec    chilled 1000   42.4
-36   Qc3      Quebec    chilled   95   15.1
-37   Qc3      Quebec    chilled  175   21.0
-38   Qc3      Quebec    chilled  250   38.1
-39   Qc3      Quebec    chilled  350   34.0
-40   Qc3      Quebec    chilled  500   38.9
-41   Qc3      Quebec    chilled  675   39.6
-42   Qc3      Quebec    chilled 1000   41.4
-43   Mn1 Mississippi nonchilled   95   10.6
-44   Mn1 Mississippi nonchilled  175   19.2
-45   Mn1 Mississippi nonchilled  250   26.2
-46   Mn1 Mississippi nonchilled  350   30.0
-47   Mn1 Mississippi nonchilled  500   30.9
-48   Mn1 Mississippi nonchilled  675   32.4
-49   Mn1 Mississippi nonchilled 1000   35.5
-50   Mn2 Mississippi nonchilled   95   12.0
-51   Mn2 Mississippi nonchilled  175   22.0
-52   Mn2 Mississippi nonchilled  250   30.6
-53   Mn2 Mississippi nonchilled  350   31.8
-54   Mn2 Mississippi nonchilled  500   32.4
-55   Mn2 Mississippi nonchilled  675   31.1
-56   Mn2 Mississippi nonchilled 1000   31.5
-57   Mn3 Mississippi nonchilled   95   11.3
-58   Mn3 Mississippi nonchilled  175   19.4
-59   Mn3 Mississippi nonchilled  250   25.8
-60   Mn3 Mississippi nonchilled  350   27.9
-61   Mn3 Mississippi nonchilled  500   28.5
-62   Mn3 Mississippi nonchilled  675   28.1
-63   Mn3 Mississippi nonchilled 1000   27.8
-64   Mc1 Mississippi    chilled   95   10.5
-65   Mc1 Mississippi    chilled  175   14.9
-66   Mc1 Mississippi    chilled  250   18.1
-67   Mc1 Mississippi    chilled  350   18.9
-68   Mc1 Mississippi    chilled  500   19.5
-69   Mc1 Mississippi    chilled  675   22.2
-70   Mc1 Mississippi    chilled 1000   21.9
-71   Mc2 Mississippi    chilled   95    7.7
-72   Mc2 Mississippi    chilled  175   11.4
-73   Mc2 Mississippi    chilled  250   12.3
-74   Mc2 Mississippi    chilled  350   13.0
-75   Mc2 Mississippi    chilled  500   12.5
-76   Mc2 Mississippi    chilled  675   13.7
-77   Mc2 Mississippi    chilled 1000   14.4
-78   Mc3 Mississippi    chilled   95   10.6
-79   Mc3 Mississippi    chilled  175   18.0
-80   Mc3 Mississippi    chilled  250   17.9
-81   Mc3 Mississippi    chilled  350   17.9
-82   Mc3 Mississippi    chilled  500   17.9
-83   Mc3 Mississippi    chilled  675   18.9
-84   Mc3 Mississippi    chilled 1000   19.9</code></pre>
+<pre><code>'data.frame':   32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...</code></pre>
 </div>
 </div>
+</section><section id="summary" class="level2"><h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <div class="cell">
-<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">DNase</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="cell-output cell-output-stdout">
-<pre><code>    Run        conc density
-1     1  0.04882812   0.017
-2     1  0.04882812   0.018
-3     1  0.19531250   0.121
-4     1  0.19531250   0.124
-5     1  0.39062500   0.206
-6     1  0.39062500   0.215
-7     1  0.78125000   0.377
-8     1  0.78125000   0.374
-9     1  1.56250000   0.614
-10    1  1.56250000   0.609
-11    1  3.12500000   1.019
-12    1  3.12500000   1.001
-13    1  6.25000000   1.334
-14    1  6.25000000   1.364
-15    1 12.50000000   1.730
-16    1 12.50000000   1.710
-17    2  0.04882812   0.045
-18    2  0.04882812   0.050
-19    2  0.19531250   0.137
-20    2  0.19531250   0.123
-21    2  0.39062500   0.225
-22    2  0.39062500   0.207
-23    2  0.78125000   0.401
-24    2  0.78125000   0.383
-25    2  1.56250000   0.672
-26    2  1.56250000   0.681
-27    2  3.12500000   1.116
-28    2  3.12500000   1.078
-29    2  6.25000000   1.554
-30    2  6.25000000   1.526
-31    2 12.50000000   1.932
-32    2 12.50000000   1.914
-33    3  0.04882812   0.070
-34    3  0.04882812   0.068
-35    3  0.19531250   0.173
-36    3  0.19531250   0.165
-37    3  0.39062500   0.277
-38    3  0.39062500   0.248
-39    3  0.78125000   0.434
-40    3  0.78125000   0.426
-41    3  1.56250000   0.703
-42    3  1.56250000   0.689
-43    3  3.12500000   1.067
-44    3  3.12500000   1.077
-45    3  6.25000000   1.629
-46    3  6.25000000   1.479
-47    3 12.50000000   2.003
-48    3 12.50000000   1.884
-49    4  0.04882812   0.011
-50    4  0.04882812   0.016
-51    4  0.19531250   0.118
-52    4  0.19531250   0.108
-53    4  0.39062500   0.200
-54    4  0.39062500   0.206
-55    4  0.78125000   0.364
-56    4  0.78125000   0.360
-57    4  1.56250000   0.620
-58    4  1.56250000   0.640
-59    4  3.12500000   0.979
-60    4  3.12500000   0.973
-61    4  6.25000000   1.424
-62    4  6.25000000   1.399
-63    4 12.50000000   1.740
-64    4 12.50000000   1.732
-65    5  0.04882812   0.035
-66    5  0.04882812   0.035
-67    5  0.19531250   0.132
-68    5  0.19531250   0.135
-69    5  0.39062500   0.224
-70    5  0.39062500   0.220
-71    5  0.78125000   0.385
-72    5  0.78125000   0.390
-73    5  1.56250000   0.658
-74    5  1.56250000   0.647
-75    5  3.12500000   1.060
-76    5  3.12500000   1.031
-77    5  6.25000000   1.425
-78    5  6.25000000   1.409
-79    5 12.50000000   1.750
-80    5 12.50000000   1.738
-81    6  0.04882812   0.086
-82    6  0.04882812   0.103
-83    6  0.19531250   0.191
-84    6  0.19531250   0.189
-85    6  0.39062500   0.272
-86    6  0.39062500   0.277
-87    6  0.78125000   0.440
-88    6  0.78125000   0.426
-89    6  1.56250000   0.686
-90    6  1.56250000   0.676
-91    6  3.12500000   1.062
-92    6  3.12500000   1.072
-93    6  6.25000000   1.424
-94    6  6.25000000   1.459
-95    6 12.50000000   1.768
-96    6 12.50000000   1.806
-97    7  0.04882812   0.094
-98    7  0.04882812   0.092
-99    7  0.19531250   0.182
-100   7  0.19531250   0.182
-101   7  0.39062500   0.282
-102   7  0.39062500   0.273
-103   7  0.78125000   0.444
-104   7  0.78125000   0.439
-105   7  1.56250000   0.686
-106   7  1.56250000   0.668
-107   7  3.12500000   1.052
-108   7  3.12500000   1.035
-109   7  6.25000000   1.409
-110   7  6.25000000   1.392
-111   7 12.50000000   1.759
-112   7 12.50000000   1.739
-113   8  0.04882812   0.054
-114   8  0.04882812   0.054
-115   8  0.19531250   0.152
-116   8  0.19531250   0.148
-117   8  0.39062500   0.226
-118   8  0.39062500   0.222
-119   8  0.78125000   0.392
-120   8  0.78125000   0.383
-121   8  1.56250000   0.658
-122   8  1.56250000   0.644
-123   8  3.12500000   1.043
-124   8  3.12500000   1.002
-125   8  6.25000000   1.466
-126   8  6.25000000   1.381
-127   8 12.50000000   1.743
-128   8 12.50000000   1.724
-129   9  0.04882812   0.032
-130   9  0.04882812   0.043
-131   9  0.19531250   0.142
-132   9  0.19531250   0.155
-133   9  0.39062500   0.239
-134   9  0.39062500   0.242
-135   9  0.78125000   0.420
-136   9  0.78125000   0.395
-137   9  1.56250000   0.624
-138   9  1.56250000   0.705
-139   9  3.12500000   1.046
-140   9  3.12500000   1.026
-141   9  6.25000000   1.398
-142   9  6.25000000   1.405
-143   9 12.50000000   1.693
-144   9 12.50000000   1.729
-145  10  0.04882812   0.052
-146  10  0.04882812   0.094
-147  10  0.19531250   0.164
-148  10  0.19531250   0.166
-149  10  0.39062500   0.259
-150  10  0.39062500   0.256
-151  10  0.78125000   0.439
-152  10  0.78125000   0.439
-153  10  1.56250000   0.690
-154  10  1.56250000   0.701
-155  10  3.12500000   1.042
-156  10  3.12500000   1.075
-157  10  6.25000000   1.340
-158  10  6.25000000   1.406
-159  10 12.50000000   1.699
-160  10 12.50000000   1.708
-161  11  0.04882812   0.047
-162  11  0.04882812   0.057
-163  11  0.19531250   0.159
-164  11  0.19531250   0.155
-165  11  0.39062500   0.246
-166  11  0.39062500   0.252
-167  11  0.78125000   0.427
-168  11  0.78125000   0.411
-169  11  1.56250000   0.704
-170  11  1.56250000   0.684
-171  11  3.12500000   0.994
-172  11  3.12500000   0.980
-173  11  6.25000000   1.421
-174  11  6.25000000   1.385
-175  11 12.50000000   1.715
-176  11 12.50000000   1.721</code></pre>
+<pre><code>      mpg             cyl             disp             hp       
+ Min.   :10.40   Min.   :4.000   Min.   : 71.1   Min.   : 52.0  
+ 1st Qu.:15.43   1st Qu.:4.000   1st Qu.:120.8   1st Qu.: 96.5  
+ Median :19.20   Median :6.000   Median :196.3   Median :123.0  
+ Mean   :20.09   Mean   :6.188   Mean   :230.7   Mean   :146.7  
+ 3rd Qu.:22.80   3rd Qu.:8.000   3rd Qu.:326.0   3rd Qu.:180.0  
+ Max.   :33.90   Max.   :8.000   Max.   :472.0   Max.   :335.0  
+      drat             wt             qsec             vs        
+ Min.   :2.760   Min.   :1.513   Min.   :14.50   Min.   :0.0000  
+ 1st Qu.:3.080   1st Qu.:2.581   1st Qu.:16.89   1st Qu.:0.0000  
+ Median :3.695   Median :3.325   Median :17.71   Median :0.0000  
+ Mean   :3.597   Mean   :3.217   Mean   :17.85   Mean   :0.4375  
+ 3rd Qu.:3.920   3rd Qu.:3.610   3rd Qu.:18.90   3rd Qu.:1.0000  
+ Max.   :4.930   Max.   :5.424   Max.   :22.90   Max.   :1.0000  
+       am              gear            carb      
+ Min.   :0.0000   Min.   :3.000   Min.   :1.000  
+ 1st Qu.:0.0000   1st Qu.:3.000   1st Qu.:2.000  
+ Median :0.0000   Median :4.000   Median :2.000  
+ Mean   :0.4062   Mean   :3.688   Mean   :2.812  
+ 3rd Qu.:1.0000   3rd Qu.:4.000   3rd Qu.:4.000  
+ Max.   :1.0000   Max.   :5.000   Max.   :8.000  </code></pre>
 </div>
 </div>
-<div class="cell">
-<details open="" class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb12"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/search.html">search</a></span><span class="op">(</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details><div class="cell-output cell-output-stdout">
-<pre><code>[1] ".GlobalEnv"        "package:stats"     "package:graphics" 
-[4] "package:grDevices" "package:utils"     "package:datasets" 
-[7] "package:methods"   "Autoloads"         "package:base"     </code></pre>
-</div>
-</div>
+</section><section id="exploratory-data-analysis" class="level2"><h2 class="anchored" data-anchor-id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+</section><section id="query---sql" class="level2"><h2 class="anchored" data-anchor-id="query---sql">Query - SQL</h2>
+</section><section id="tables---sql" class="level2"><h2 class="anchored" data-anchor-id="tables---sql">Tables - SQL</h2>
+</section><section id="scraping" class="level2"><h2 class="anchored" data-anchor-id="scraping">Scraping</h2>
 
 
 </section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
@@ -768,18 +541,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -811,7 +573,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -819,7 +603,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

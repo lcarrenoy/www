@@ -1,0 +1,10 @@
+---
+title: "Bar Chart"
+author: "Bar Chart"
+date: "2024-05-31"
+categories: [Rstudio,Graphics]
+---
+
+
+![](Bar Chart.png)
+

@@ -1,0 +1,80 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: 'Quarto Python Demo'\n",
+        "author: 'David M Vermillion'\n",
+        "date: today\n",
+        "date-format: \"D MMMM YYYY\"\n",
+        "format: html\n",
+        "jupyter: python3\n",
+        "\n",
+        "---\n",
+        "\n",
+        "```{r}\n",
+        "#| include: false \n",
+        "knitr::opts_chunk$set(echo=TRUE)\n",
+        "# Instala el paquete reticulate si aún no lo tienes\n",
+        "install.packages(\"reticulate\")\n",
+        "\n",
+        "# Carga el paquete reticulate\n",
+        "library(reticulate)\n",
+        "\n",
+        "# Instala Matplotlib\n",
+        "py_install(packages = \"matplotlib\")\n",
+        "\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "\n",
+        "```"
+      ],
+      "id": "644a1417"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false \n",
+        "\n",
+        "\n",
+        "\n",
+        "años=[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Ago\",\"Sep\",\"Oct\"]\n",
+        "Venta2022=np.random.rand(10)*100\n",
+        "Venta2023=np.random.rand(10)*400+300\n",
+        "Venta2024=np.random.rand(10)*300+200\n",
+        "\n",
+        "plt.plot(años,Venta2022,label=\"2022\",color=\"green\",marker=\".\")\n",
+        "plt.plot(años,Venta2023,label=\"2023\",color=\"red\",marker=\".\")\n",
+        "plt.plot(años,Venta2024,label=\"Budget 2023\",color=\"blue\",marker=\".\")\n",
+        "\n",
+        "\n",
+        "plt.xlabel(\"Month\")\n",
+        "plt.ylabel(\"Thousand $\")\n",
+        "plt.yticks(np.arange(0,801,50))\n",
+        "plt.grid()\n",
+        "plt.minorticks_on()\n",
+        "\n",
+        "plt.legend()\n",
+        "plt.title(\"Sales 2022-2023\")\n",
+        "plt.show()"
+      ],
+      "id": "92f0b949",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\Luis\\AppData\\Roaming\\Python\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

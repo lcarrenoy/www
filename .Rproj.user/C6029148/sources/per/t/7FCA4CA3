@@ -1,7 +1,7 @@
 {
     "id": "7FCA4CA3",
     "path": "C:/Users/Luis/OneDrive/Escritorio/vvvv/posts/postwithplot/index.qmd",
-    "project_path": "posts/postwithplot/index.qmd",
+    "project_path": null,
     "type": "quarto_markdown",
     "hash": "1060679018",
     "contents": "",
@@ -16,7 +16,7 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "179:406",
+        "rmdVisualModeLocation": "2:0",
         "cursorPosition": "10,0",
         "scrollLine": "0",
         "docOutlineSize": "129"
@@ -26,7 +26,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1717558497054,
+    "last_content_update": 1719383908489,
     "read_only": false,
     "read_only_alternatives": []
 }
